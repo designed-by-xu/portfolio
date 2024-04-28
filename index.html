@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=0.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="title" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="copyright" content="">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <title>MNML STUDIO</title>
+    <!-- css & font -->
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/work-hamburger.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="nav-hide load-hidden">
+        <div class="nav-pack">
+            <span class="nav-logo"><a href="index.html">MNML STUDIO</a></span>
+            <button class="hamburger hamburger--minus" id="toggle">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- popout -->
+    <div class="overlay" id="overlay">
+        <div class="popout-menu">
+            <ul>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="popout-sns">
+            <ul>
+                <li><a href="#" target="_blank">Behance</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">Dribbble</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- section -->
+    <section>
+        <div class="s-row load-hidden">
+            <a href="work-1.html"><img src="images/thumbnail-01-1x.png"
+                    srcset="images/thumbnail-01-1x.png 1x, images/thumbnail-01.png 2x, images/thumbnail-01.png 3x"
+                    style="width:100%"></a>
+            <div class="s-title">Hypewolfs</div>
+            <a href="work-2.html"><img src="images/thumbnail-02-1x.png"
+                    srcset="images/thumbnail-02-1x.png 1x, images/thumbnail-02.png 2x, images/thumbnail-02.png 3x"
+                    style="width:100%"></a>
+            <div class="s-title">CTZN Coffee Roaster</div>
+            <a href="work-3.html"><img src="images/thumbnail-03-1x.png"
+                    srcset="images/thumbnail-03-1x.png 1x, images/thumbnail-03.png 2x, images/thumbnail-03.png 3x"
+                    style="width:100%"></a>
+            <div class="s-title">Indigo Apparel</div>
+        </div>
+        <div class="s-row load-hidden">
+            <a href="work-4.html"><img src="images/thumbnail-04-1x.png"
+                    srcset="images/thumbnail-04-1x.png 1x, images/thumbnail-04.png 2x, images/thumbnail-04.png 3x"
+                    style="width:100%"></a>
+            <div class="s-title">Japanese Tea Salon</div>
+            <a href="work-5.html"><img src="images/thumbnail-05-1x.png"
+                    srcset="images/thumbnail-05-1x.png 1x, images/thumbnail-05.png 2x, images/thumbnail-05.png 3x"
+                    style="width:100%"></a>
+            <div class="s-title">Artdept</div>
+            <a href="work-6.html"><img src="images/thumbnail-06-1x.png"
+                    srcset="images/thumbnail-06-1x.png 1x, images/thumbnail-06.png 2x, images/thumbnail-06.png 3x"
+                    style="width:100%"></a>
+            <div class="s-title">NYC Spirit</div>
+        </div>
+    </section>
+    <hr class="s-line load-hidden">
+    <!-- footer -->
+    <footer>
+        <div class="f-all load-hidden">
+            <div class="f-pack">
+                <div class="f-row ">
+                    <div class="f-col-7">
+                        <span class="f-title">poster card</span>
+                        <span class="f-link-gap">11F No.37 Zhuang 2nd Street<br>Taoyuan Dist Taoyuan City,
+                            Taiwan.</span><span class="f-link">© 2024 MNML STUDIO</span>
+                    </div>
+                    <div class="f-col-3">
+                        <span class="f-title">say hello</span>
+                        <span class="f-link"><a href="mailto:leetzuhsu@gmail.com">intro1984@gmail.com</a><br>+886 966
+                            040 369</span>
+                    </div>
+                    <div class="f-col-2">
+                        <span class="f-title">social</span>
+                        <span class="f-link">
+                            <a href="https://medium.com/@xu.docs" target="_blank">Medium</a><br>
+                            <a href="https://dribbble.com/designed-by-xu" target="_blank">Dribbble</a><br>
+                            <a href="https://www.instagram.com/xu.webp/" target="_blank">Instagram</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Hamburger -->
+    <script>
+        var forEach = function (t, o, r) {
+            if ("[object Object]" === Object.prototype.toString.call(t))
+                for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
+            else
+                for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
+        };
+
+        var hamburgers = document.querySelectorAll(".hamburger");
+        if (hamburgers.length > 0) {
+            forEach(hamburgers, function (hamburger) {
+                hamburger.addEventListener("click", function () {
+                    this.classList.toggle("is-active");
+                }, false);
+            });
+        }
+    </script>
+    <!-- Overlay -->
+    <script>
+        $('#toggle').click(function () {
+            $(this).toggleClass('active');
+            $('#overlay').toggleClass('open');
+        });
+    </script>
+    <!-- ScrollTo -->
+    <script>
+        window.onload = function () {
+            setTimeout(function () {
+                scrollTo(0, 0);
+            }, 100);
+        }
+    </script>
+    <!-- ScrollReveal -->
+    <script>
+        ScrollReveal().reveal('.nav-hide', {
+            duration: 620,
+            delay: 380,
+            distance: '0px',
+            easing: 'cubic-bezier(0.38, 0, 0.15, 1)'
+        })
+        ScrollReveal().reveal('.s-row', {
+            duration: 620,
+            delay: 380,
+            distance: '12px',
+            easing: 'cubic-bezier(0.38, 0, 0.15, 1)'
+        })
+        ScrollReveal().reveal('.f-all', {
+            duration: 620,
+            delay: 215,
+            distance: '0px',
+            easing: 'cubic-bezier(0.38, 0, 0.15, 1)'
+        })
+        ScrollReveal().reveal('.s-line', {
+            duration: 620,
+            delay: 0,
+            distance: '0px',
+            easing: 'cubic-bezier(0.38, 0, 0.15, 1)'
+        })
+    </script>
+</body>
+
+</html>
